@@ -1,0 +1,72 @@
+@import "./admin";
+
+.product-add{
+    border-radius: 0.4rem;
+    background-color: #f2f2f2;
+    padding: 1.3rem;
+   
+
+    &__form{
+        // position: absolute;
+        // left: 50%;
+        // top: 0%;
+    }
+    &__input{
+        
+    }
+    &__image{
+        margin-top: 0.5rem;
+        max-width: 33.5%;
+    }
+    &__date{
+        width: 32%;
+        // margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        font-size: 12px;
+    }
+    &__discount{
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 0.25rem;
+    }
+    &__dateText1{
+        margin-right: 3.4rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    &__dateText2{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    &__submit{
+       
+        
+        margin-top: 2rem;
+        position: relative;
+        left: 50%;
+        top: 50%
+    }
+    &__imgbox{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid #dc3545;
+        width:100%;
+        height:fit-content;
+        flex-wrap: wrap;
+    }
+    &__imgsmallbox{
+        border: 1px dashed #dc3545;
+        width: 33.33%;
+        height: 9rem;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
